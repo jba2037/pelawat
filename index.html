@@ -1,11 +1,80 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Daftar Pelawat Selinau</title>
-   
+    <title>Embedded Content</title>
+ <base target="_top">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" 
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=K2D'>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+
+<!-- ******Style CSS********* -->    
+    <style>
+
+      *{
+        margin: 0px;
+        padding: 5px;
+        box-sizing: border-box;
+        font-family: 'K2D', sans-serif;
+        text-transform: uppercase;
+      }
+.input-padding {
+    padding-top: 10px;    /* Padding di atas */
+    padding-bottom: 10px; /* Padding di bawah */
+    padding-left: 15px;   /* Padding di kiri */
+    padding-right: 15px;  /* Padding di kanan */
+}
+      html,body{
+        min-height:100vh; 
+        display: grid;
+        place-items: center;
+        background: url("https://drive.google.com/uc?id=1S-CNqYOcsihwMN4gravWVS8QUd53vvJ7") no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;  
+      }
+
+      .wrapper{
+        background: #fff;
+        width: 350px;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0px 15px 20px rgba(0,0,0,0.1);
+      }
+
+      /** #### digital clock #### **/
+      .clock {
+        //width:100%;
+        background: #999;
+        font-size: 28px;
+        padding:10px 50px 10px 50px;
+        font-family: Digital dream Fat;
+        //text-shadow: 0 0 3px #eeFFee, 0 0 5px #00FF00;
+        color: 	cyan;
+        text-shadow: 1px 1px 2px teal, 0 0 25px green, 0 0 5px darkturquoise;
+      }
+
+      /**
+      #### font digital: http://www.cufonfonts.com #### 
+      #### css @font-face generator : https://transfonter.org/ #### 
+      **/
+      @font-face {
+          font-family: 'Digital dream Fat';
+          src: url('https://semicon.github.io/fonts/DigitaldreamFat.woff2') format('woff2'),
+              url('https://semicon.github.io/fonts/DigitaldreamFat.woff') format('woff');
+          font-weight: normal;
+          font-style: normal;
+          font-display: swap;
+          text-transform: uppercase;
+      }
+
+    </style>  
+
 </head>
 <body>
-
 <iframe src="https://script.google.com/a/macros/moe.edu.my/s/AKfycbwhFV6juuGNqFzPlIwIW3uLGWJzWyK2h6oYn_C-4XlqCtGgsbzfjbbWJiD7jRwL8bTW/exec"
         width="35%"
         height="100%"
